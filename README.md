@@ -35,7 +35,10 @@ To get a value you can use:
 ```
 _valueName = "isWoodland";
 _defaultValue = false;
-_isWoodland = [missionConfigFile >> "cfgGradIslands",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
+_return = [missionConfigFile >> "cfgGradIslands",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
+
+// true and false are returned as strings --> convert to bool here
+if (_return isEqualType "" && {toLower _return in ["true","false"]}) then {_return = _return == "true"};
 ```
 
 ## Building
