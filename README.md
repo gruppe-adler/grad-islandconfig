@@ -1,0 +1,39 @@
+# GRAD IslandConfig
+
+Mission-specific configs for a collection of islands.
+
+## Installation
+
+### Variant 1: npm
+
+Highly recommended: `>= npm-3.x`, which comes with NodeJS 6.x. Don't use older versions!
+
+`npm install grad-islandconfig --save`
+
+For updating, change the desired version number in your mission's `package.json`, and do `npm install`
+
+### Variant 2: manually
+
+Alternatively, you can install `grad-islandconfig` manually.
+
+* download  `grad-islandconfig` as a zipfile from github, and put the contents into a `node_modules` directory, so that you get:
+
+```
+myMission.altis/node_modules/grad-islandconfig
+```
+
+## Implementation
+
+Include in your `description.ext` like so:
+
+```
+#include node_modules\grad-islandconfig\grad-islandconfig.hpp
+```
+
+To get a value you can use:
+
+```
+_valueName = "isWoodland";
+_defaultValue = false;
+_isWoodland = [missionConfigFile >> "grad-islandconfig",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
+```
