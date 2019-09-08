@@ -329,7 +329,7 @@ class cfgGradIslands {
         isWoodland = true;
         spawnPosBlu[] = {-172,640,0};
         spawnPosOpf[] = {-193,887,0};
-        spawnPosInd[] = [-253,1608,0};
+        spawnPosInd[] = {-253,1608,0};
     };
 
     class ruha {
