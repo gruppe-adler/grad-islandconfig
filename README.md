@@ -1,4 +1,5 @@
 # GRAD IslandConfig
+![npm](https://img.shields.io/npm/v/grad-islandconfig)
 
 Mission-specific configs for a collection of islands. There won't be any GitHub releases, so whatever is in master branch (or released as an npm package) is what you need.
 
