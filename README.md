@@ -1,6 +1,6 @@
 # GRAD IslandConfig
 
-Mission-specific configs for a collection of islands.
+Mission-specific configs for a collection of islands. There won't be any GitHub releases, so whatever is in master branch (or released as an npm package) is what you need.
 
 ## Installation
 
@@ -27,7 +27,7 @@ myMission.altis/node_modules/grad-islandconfig
 Include in your `description.ext` like so:
 
 ```
-#include node_modules\grad-islandconfig\grad-islandconfig.hpp
+#include node_modules\grad-islandconfig\cfgGradIslands.hpp
 ```
 
 To get a value you can use:
@@ -35,7 +35,7 @@ To get a value you can use:
 ```
 _valueName = "isWoodland";
 _defaultValue = false;
-_isWoodland = [missionConfigFile >> "grad-islandconfig",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
+_isWoodland = [missionConfigFile >> "cfgGradIslands",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
 ```
 
 ## Building
