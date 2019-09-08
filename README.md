@@ -37,3 +37,12 @@ _valueName = "isWoodland";
 _defaultValue = false;
 _isWoodland = [missionConfigFile >> "grad-islandconfig",_valueName,_defaultValue] call BIS_fnc_returnConfigEntry;
 ```
+
+## Building
+
+The included file `islands.txt` aims to list all maps currently in our modset that are relevant to our multi-map missions. To use this list in your build script you can do:
+
+```
+islands=($(curl -k https://raw.githubusercontent.com/gruppe-adler/grad-islandconfig/master/islands.txt))
+islands=("${islands[@]%%:*}")
+```
