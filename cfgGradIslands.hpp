@@ -262,7 +262,7 @@ class cfgGradIslands {
 
     class lingor3 {
         displayName = "Lingor";
-        type = "tropic";
+        type = "tropical";
         isWoodland = true;
         spawnPosBlu[] = {1096.81,9389.22,0};
         spawnPosOpf[] = {889.053,9438.74,0};
@@ -325,7 +325,7 @@ class cfgGradIslands {
 
     class prei_khmaoch_luong {
         displayName = "Prei Khmaoch Luong";
-        type = "tropic";
+        type = "tropical";
         isWoodland = true;
         spawnPosBlu[] = {-172,640,0};
         spawnPosOpf[] = {-193,887,0};
@@ -458,7 +458,7 @@ class cfgGradIslands {
 
     class Tanoa {
         displayName = "Tanoa";
-        type = "tropic";
+        type = "tropical";
         isWoodland = true;
         spawnPosBlu[] = {10513,14650,0};
         spawnPosOpf[] = {10421,14542,0};
@@ -516,7 +516,7 @@ class cfgGradIslands {
 
     class Tembelan {
         displayName = "Tembelan";
-        type = "tropic";
+        type = "tropical";
         isWoodland = true;
         spawnPosBlu[] = {457,5194,0};
         spawnPosOpf[] = {943,5161,0};
