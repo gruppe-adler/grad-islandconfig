@@ -2,8 +2,6 @@ Altis
 Bootcamp_ACR
 Woodland_ACR
 tem_cham
-d41_ruegen
-d41_ruegen_scorched
 Enoch
 lythium
 Malden
