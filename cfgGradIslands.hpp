@@ -598,6 +598,14 @@ class cfgGradIslands {
         };
     };
 
+    class vt7 {
+        displayName = "vt7";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {890.111,3131.82,0};
+        spawnPosOpf[] = {15477.1,16683.4,0};
+    };
+
     class WL_Rosche {
         displayName = "Rosche";
         type = "russian";
