@@ -346,7 +346,7 @@ class cfgGradIslands {
         type = "mediterranean";
         isWoodland = true;
         spawnPosBlu[] = {7100,5936,0};
-        spawnPosOpf[] = {7106,5975,0};
+        spawnPosOpf[] = {3782.86,7923.07,0};
         spawnPosInd[] = {7109,6010,0};
         urbanops_locationBlacklist[] = {
             "airfield",
