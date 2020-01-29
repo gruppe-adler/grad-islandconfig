@@ -602,8 +602,33 @@ class cfgGradIslands {
         displayName = "vt7";
         type = "russian";
         isWoodland = true;
-        spawnPosBlu[] = {890.111,3131.82,0};
-        spawnPosOpf[] = {15477.1,16683.4,0};
+        spawnPosBlu[] = {60,18055,0};
+        spawnPosOpf[] = {3000,18055,0};
+        spawnPosInd[] = {6664,18055,0};
+        urbanops_locationBlacklist[] = {
+            "Korpisaari",
+            "Pytersaari",
+            "Karhusaari",
+            "Sumari",
+            "Tuuholmi",
+            "Pieni Lakasaari",
+            "Suuri Lakasaari",
+            "Kauholmi",
+            "Kuppari",
+            "Lehtinen",
+            "Lapuri",
+            "Pulteri",
+            "Santasaari",
+            "Hanholmi",
+            "Lylysaari",
+            "Raitsaari",
+            "Näästiö",
+            "Souvio",
+            "Kujaholmi",
+            "Pirkholmi",
+            "Haapasaari",
+            "Korkiasaari"
+        };
     };
 
     class WL_Rosche {
