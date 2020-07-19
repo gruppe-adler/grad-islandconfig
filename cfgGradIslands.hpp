@@ -332,6 +332,15 @@ class cfgGradIslands {
         spawnPosInd[] = {-253,1608,0};
     };
 
+    class rhspkl {
+        displayName = "RHSPKL";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {6277.15,5772.99,0};
+        spawnPosOpf[] = {6175.65,7714.31,0};
+        spawnPosInd[] = {2435.66,7402.81,0};
+    };
+
     class ruha {
         displayName = "Ruha";
         type = "russian";
