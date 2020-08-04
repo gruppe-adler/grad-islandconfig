@@ -306,6 +306,15 @@ class cfgGradIslands {
         urbanops_locationBlacklist[] = {};
     };
 
+    class pja310 {
+        displayName = "GOS Al Rayak";
+        type = "middle eastern";
+        isWoodland = true;
+        spawnPosBlu[] = {850,1240,0};
+        spawnPosOpf[] = {1700,1170,0};
+        spawnPosInd[] = {850,1040,0}; // not tested
+    };
+
     class Porto {
         displayName = "Porto";
         type = "middle eastern";
