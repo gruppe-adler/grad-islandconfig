@@ -282,6 +282,15 @@ class cfgGradIslands {
         urbanops_locationBlacklist[] = {};
     };
 
+    class Majan {
+        displayName = "Majan";
+        type = "mediterranean";
+        isWoodland = false;
+        spawnPosBlu[] = {10035,2134,0};
+        spawnPosOpf[] = {10159,2200,0};
+        spawnPosInd[] = {9983,2289,0};
+    };
+
     class Malden {
         displayName = "Malden";
         type = "mediterranean";
