@@ -260,6 +260,15 @@ class cfgGradIslands {
         };
     };
 
+    class pja314 {
+        displayName = "G.O.S. Leskovets";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {-1000,-1000,0};
+        spawnPosOpf[] = {-3000,-1000,0};
+        urbanops_locationBlacklist[] = {};
+    };
+
     class lingor3 {
         displayName = "Lingor";
         type = "tropical";
