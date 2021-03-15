@@ -324,10 +324,19 @@ class cfgGradIslands {
         urbanops_locationBlacklist[] = {};
     };
 
+    class Mog {
+        displayName = "Mogadishu";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {2901.95,3739.27,0};
+        spawnPosOpf[] = {5293.3,3817.9,0};
+        spawnPosInd[] = {5293.89,5000,0}; // not tested
+    };
+
     class pja310 {
         displayName = "GOS Al Rayak";
         type = "middle eastern";
-        isWoodland = true;
+        isWoodland = false;
         spawnPosBlu[] = {850,1240,0};
         spawnPosOpf[] = {1700,1170,0};
         spawnPosInd[] = {850,1040,0}; // not tested
