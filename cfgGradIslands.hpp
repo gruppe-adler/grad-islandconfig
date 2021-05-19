@@ -75,6 +75,15 @@ class cfgGradIslands {
         };
     };
 
+    class Cam_Lao_Nam {
+        displayName = "Cam Lao Nam";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {11909.9,14360.1,0};
+        spawnPosOpf[] = {11272.3,14930.6,0};
+        spawnPosInd[] = {11351.6,14073,0};
+    };
+
     class Chernarus {
         displayName = "Chernarus (Autumn)";
         type = "russian";
