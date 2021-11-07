@@ -395,6 +395,15 @@ class cfgGradIslands {
         spawnPosInd[] = {2435.66,7402.81,0};
     };
 
+    class rof_mok {
+        displayName = "Mull of Kintyre";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {9194.22,19196.1,0};
+        spawnPosOpf[] = {11721.1,18346.6,0};
+        spawnPosInd[] = {9995.21,17459.1,0};
+    };
+
     class ruha {
         displayName = "Ruha";
         type = "russian";
