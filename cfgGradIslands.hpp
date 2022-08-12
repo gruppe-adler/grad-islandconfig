@@ -288,6 +288,16 @@ class cfgGradIslands {
         urbanops_locationBlacklist[] = {};
     };
 
+    class cup_kunduz {
+        displayName = "CUP Kunduz";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {0,0,0};
+        spawnPosOpf[] = {4000,0,0};
+        spawnPosInd[] = {4000,4000,0};
+        urbanops_locationBlacklist[] = {};
+    };
+
     class lingor3 {
         displayName = "Lingor";
         type = "tropical";
