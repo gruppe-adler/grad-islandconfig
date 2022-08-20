@@ -815,4 +815,130 @@ class cfgGradIslands {
             };
         };
     };
+
+    class juju_sahatra {
+        displayName = "73 Sahatra";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {619.791,629.159,0};
+        spawnPosOpf[] = {24.3515,7104.69,0};
+        spawnPosInd[] = {8150,740.587,0};
+    };
+
+    class CUP_Kunduz {
+        displayName = "Kunduz, Afghanistan";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {3628.4,5070.48,0};
+        spawnPosOpf[] = {5100.98,914.935,0};
+        spawnPosInd[] = {86.9925,641.659,0};
+    };
+
+    class Desert_E {
+        displayName = "Desert";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {200.707,360.712,0};
+        spawnPosOpf[] = {776.665,334.58,0};
+        spawnPosInd[] = {1014.47,1754.4,0};
+    };
+
+    class NorthTakistan {
+        displayName = "North Takistan";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {2207.31,4623.16,0};
+        spawnPosOpf[] = {8334.44,10684.1,0};
+        spawnPosInd[] = {9821.95,4510.49,0};
+    };
+
+    class oski_ire {
+        displayName = "County Fermanagh";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {579.494,20.7767,0};
+        spawnPosOpf[] = {845.702,5085.66,0};
+        spawnPosInd[] = {5089.85,1308.66,0};
+    };
+
+    class ProvingGrounds_ACR {
+        displayName = "Proving Grounds";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {1899.97,240.401,0};
+        spawnPosOpf[] = {2012.23,1759.78,0};
+        spawnPosInd[] = {18.8464,1625.93,0};
+    };
+
+    class swu_public_rhode_map {
+        displayName = "Mutambra";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {702.003,1080.97,0};
+        spawnPosOpf[] = {4738.99,4959.74,0};
+        spawnPosInd[] = {1020.44,5046.8,0};
+    };
+
+    class uzbin {
+        displayName = "Uzbin Valley";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {256.679,995.629,0};
+        spawnPosOpf[] = {9451.65,9972.54,0};
+        spawnPosInd[] = {10447.4,1511.11,0};
+    };
+
+    class uzbin {
+        displayName = "Uzbin Valley";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {256.679,995.629,0};
+        spawnPosOpf[] = {9451.65,9972.54,0};
+        spawnPosInd[] = {10447.4,1511.11,0};
+    };
+
+    class Mountains_ACR {
+        displayName = "Takistan Mountains";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {5940.93,786.581,0};
+        spawnPosOpf[] = {5883.79,5968.62,0};
+        spawnPosInd[] = {1057.13,2344.07,0};
+    };
+
+    class vn_khe_sanh {
+        displayName = "Khe Sanh";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {4534.46,1181.29,0};
+        spawnPosOpf[] = {12406.2,13798.2,0};
+        spawnPosInd[] = {610.623,11763.4,0};
+    };
+
+    class vn_the_bra {
+        displayName = "The Bra";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {520.786,1548.63,0};
+        spawnPosOpf[] = {3535.85,3771.14,0};
+        spawnPosInd[] = {4803.4,1190.8,0};
+    };
+
+    class tem_lang_dan {
+        displayName = "Lang Dan";
+        type = "tropical";
+        isWoodland = true;
+        spawnPosBlu[] = {377.13,4448.19,0};
+        spawnPosOpf[] = {2813.16,1396.71,0};
+        spawnPosInd[] = {6693.98,6655.94,0};
+    };
+
+    class SefrouRamal {
+        displayName = "Sefrou-Ramal";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {1100.13,3373.06,0};
+        spawnPosOpf[] = {8350.97,3051.16,0};
+        spawnPosInd[] = {7975.69,8724.92,0};
+    };
 };
