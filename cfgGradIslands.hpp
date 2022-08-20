@@ -888,15 +888,6 @@ class cfgGradIslands {
         spawnPosInd[] = {10447.4,1511.11,0};
     };
 
-    class uzbin {
-        displayName = "Uzbin Valley";
-        type = "middle eastern";
-        isWoodland = false;
-        spawnPosBlu[] = {256.679,995.629,0};
-        spawnPosOpf[] = {9451.65,9972.54,0};
-        spawnPosInd[] = {10447.4,1511.11,0};
-    };
-
     class Mountains_ACR {
         displayName = "Takistan Mountains";
         type = "middle eastern";
