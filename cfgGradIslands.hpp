@@ -825,15 +825,6 @@ class cfgGradIslands {
         spawnPosInd[] = {8150,740.587,0};
     };
 
-    class CUP_Kunduz {
-        displayName = "Kunduz, Afghanistan";
-        type = "middle eastern";
-        isWoodland = false;
-        spawnPosBlu[] = {3628.4,5070.48,0};
-        spawnPosOpf[] = {5100.98,914.935,0};
-        spawnPosInd[] = {86.9925,641.659,0};
-    };
-
     class Desert_E {
         displayName = "Desert";
         type = "middle eastern";
