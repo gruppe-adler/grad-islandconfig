@@ -50,6 +50,14 @@ class cfgGradIslands {
         };
     };
 
+    class swu_public_salman_map {
+        displayName = "Al Salman";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {9120.67,9322.3,0};
+        spawnPosOpf[] = {8456.1,9346.14,0};
+    };
+
     class Beketov {
         displayName = "Beketov";
         type = "russian";
