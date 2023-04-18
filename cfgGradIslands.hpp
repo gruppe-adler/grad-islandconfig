@@ -614,6 +614,15 @@ class cfgGradIslands {
         };
     };
 
+    class brf_sumava {
+        displayName = "Sumava";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {9015.2,2334.95,0};
+        spawnPosOpf[] = {9821.52,3412.76,0};
+        spawnPosInd[] = {9494.23,2318.11,0};
+    };
+
     class swu_public_rhode_map {
         displayName = "Mutambra";
         type = "tropical";
