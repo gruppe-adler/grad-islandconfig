@@ -315,6 +315,15 @@ class cfgGradIslands {
         spawnPosInd[] = {8150,740.587,0};
     };
 
+    class kunduz_valley {
+        displayName = "Kunduz Valley";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {1087.54,8109.22,0};
+        spawnPosOpf[] = {4226.55,9196.67,0};
+        spawnPosInd[] = {9415.49,8932.38,0};
+    };
+
     class lingor3 {
         displayName = "Lingor";
         type = "tropical";
