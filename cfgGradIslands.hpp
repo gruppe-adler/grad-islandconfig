@@ -50,14 +50,6 @@ class cfgGradIslands {
         };
     };
 
-    class swu_public_salman_map {
-        displayName = "Al Salman";
-        type = "middle eastern";
-        isWoodland = false;
-        spawnPosBlu[] = {9120.67,9322.3,0};
-        spawnPosOpf[] = {8456.1,9346.14,0};
-    };
-
     class Beketov {
         displayName = "Beketov";
         type = "russian";
@@ -81,6 +73,15 @@ class cfgGradIslands {
         spawnPosBlu[] = {3225,4342,0};
         spawnPosOpf[] = {3449,4376,0};
         spawnPosInd[] = {3807,4346,0};
+    };
+
+    class cain {
+        displayName = "Kolgujev";
+        type = "mediterranean";
+        isWoodland = true;
+        spawnPosBlu[] = {9438,12384,0};
+        spawnPosOpf[] = {9438,12384,0};
+        spawnPosInd[] = {9438,12384,0};
     };
 
     class Cam_Lao_Nam {
@@ -355,6 +356,15 @@ class cfgGradIslands {
         spawnPosInd[] = {9983,2289,0};
     };
 
+    class Maksniemi {
+        displayName = "Maksniemi";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {11156,1863,0};
+        spawnPosOpf[] = {11156,1863,0};
+        spawnPosInd[] = {11156,1863,0};
+    }
+
     class Malden {
         displayName = "Malden";
         type = "mediterranean";
@@ -406,6 +416,15 @@ class cfgGradIslands {
         spawnPosInd[] = {1057.13,2344.07,0};
     };
 
+    class noe {
+        displayName = "Nogova";
+        type = "mediterraneanan";
+        isWoodland = true;
+        spawnPosBlu[] = {3351,385,0};
+        spawnPosOpf[] = {3351,385,0};
+        spawnPosInd[] = {3351,385,0};
+    }
+
     class NorthTakistan {
         displayName = "North Takistan";
         type = "middle eastern";
@@ -414,6 +433,15 @@ class cfgGradIslands {
         spawnPosOpf[] = {8334.44,10684.1,0};
         spawnPosInd[] = {9821.95,4510.49,0};
     };
+
+    class oski_corran {
+        displayName = "Scottish Highlands";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {3662,6018,0};
+        spawnPosOpf[] = {3662,6018,0};
+        spawnPosInd[] = {3662,6018,0};
+    }
 
     class oski_ire {
         displayName = "County Fermanagh";
@@ -593,6 +621,15 @@ class cfgGradIslands {
         spawnPosInd[] = {7975.69,8724.92,0};
     };
 
+    class Sehreno {
+        displayName = "Sehreno";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {2293,18838,0};
+        spawnPosOpf[] = {2293,18838,0};
+        spawnPosInd[] = {2293,18838,0};
+    };
+
     class Shapur_BAF {
         displayName = "Shapur";
         type = "middle eastern";
@@ -614,6 +651,15 @@ class cfgGradIslands {
         spawnPosOpf[] = {10301,10220.1,0};
         spawnPosInd[] = {10294.9,9054.83,0};
     };
+
+    class SPE_Mortain {
+        displayName = "SPE Mortain";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {7119,26,0};
+        spawnPosOpf[] = {7119,26,0};
+        spawnPosInd[] = {7119,26,0};
+    }
 
     class Stratis {
         displayName = "Stratis";
@@ -641,6 +687,15 @@ class cfgGradIslands {
         spawnPosInd[] = {9494.23,2318.11,0};
     };
 
+    class swu_public_novogorsk_map {
+        displayName = "Novogorsk";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {24.093,4945.41,0};
+        spawnPosOpf[] = {24.093,4945.41,0};
+        spawnPosInd[] = {24.093,4945.41,0};
+    };
+
     class swu_public_rhode_map {
         displayName = "Mutambra";
         type = "tropical";
@@ -648,6 +703,14 @@ class cfgGradIslands {
         spawnPosBlu[] = {702.003,1080.97,0};
         spawnPosOpf[] = {4738.99,4959.74,0};
         spawnPosInd[] = {1020.44,5046.8,0};
+    };
+
+    class swu_public_salman_map {
+        displayName = "Al Salman";
+        type = "middle eastern";
+        isWoodland = false;
+        spawnPosBlu[] = {9120.67,9322.3,0};
+        spawnPosOpf[] = {8456.1,9346.14,0};
     };
 
     class Takistan {
@@ -730,7 +793,7 @@ class cfgGradIslands {
         spawnPosOpf[] = {7637,8314,0};
         spawnPosInd[] = {7022,8327,0};
     };
-    
+
     class tem_chamw {
         displayName = "Cham Winter";
         type = "russian";
@@ -911,6 +974,17 @@ class cfgGradIslands {
         };
     };
 
+    class VTF_Korsac {
+        displayName = "Korsac";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {18.5451,464.668,0};
+        spawnPosOpf[] = {18.5451,464.668,0};
+        spawnPosInd[] = {18.5451,464.668,0};
+    };
+
+    class VTF_Korsac_Winter : VTF_Korsac {};
+
     class WL_Rosche {
         displayName = "Rosche";
         type = "russian";
@@ -976,4 +1050,13 @@ class cfgGradIslands {
             };
         };
     };
+
+    class Yulakia {
+        displayName = "Yulakia";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {10754,177.858,0};
+        spawnPosOpf[] = {10754,177.858,0};
+        spawnPosInd[] = {10754,177.858,0};
+    }
 };
