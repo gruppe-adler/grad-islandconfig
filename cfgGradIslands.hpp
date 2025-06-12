@@ -1059,4 +1059,13 @@ class cfgGradIslands {
         spawnPosOpf[] = {10754,177.858,0};
         spawnPosInd[] = {10754,177.858,0};
     }
+
+    class juju_javory {
+        displayName = "Garmanda";
+        type = "russian";
+        isWoodland = true;
+        spawnPosBlu[] = {5408,724,0};
+        spawnPosOpf[] = {8090,4726,0};
+        spawnPosInd[] = {6905,5809,0};
+    };
 };
